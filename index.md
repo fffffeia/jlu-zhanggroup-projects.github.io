@@ -1,94 +1,84 @@
 ---
+title: Home
 ---
 
-# Lab Website Template
+# jlu-zhanggroup-projects
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+该网站为吉林大学建设工程学院[张文老师](https://baike.baidu.com/item/%E5%BC%A0%E6%96%87/22934192)的国家优秀青年科学基金（项目号：42022053）专属网站! 
+<br>
 
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
+<b>项目简介: </b>
+该项目xxxxxxx.
+
+
+{% include section.html full=true %}
+
+{% include banner.html image="images/banner.jpg" %}
 
 {% include section.html %}
 
-## Highlights
+# Highlights
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+项目简介：.
 
 {%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
+  include link.html
+  link="项目简介"
+  text="了解项目"
+  icon="图标"
   flip=true
-  style="bare"
 %}
-
+{:.center}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  image="images/publications.jpg"
+  link="项目简介"
+  title="项目简介"
   text=text
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+项目成果：.
 
 {%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
+  include link.html
+  link="项目成果"
+  text="看该项目取得的成果"
+  icon="图标"
   flip=true
-  style="bare"
 %}
-
+{:.center}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  image="images/research.jpg"
+  link="项目成果"
+  title="项目成果"
   flip=true
-  style="bare"
   text=text
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+项目人员：  
 
 {%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
+  include link.html
+  link="项目人员"
+  text="认识该项目涉及的人员"
+  icon="图标"
   flip=true
-  style="bare"
 %}
-
+{:.center}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
+  image="images/teams.jpg"
+  link="项目人员"
+  title="项目人员"
   text=text
-%}
+%}"
